@@ -17,7 +17,7 @@ namespace oefLanden
 
         public override string ToString()
         {
-            return string.Format("{0} (Koning(in): {1}", base.ToString(), Koning);
+            return string.Format("{0} (Koning(in): {1})", base.ToString(), Koning);
         }
     }
 }

@@ -40,7 +40,7 @@
                     <RadioButton Name="rdbOverig" Margin="2">Overig</RadioButton>
                 </StackPanel>
             </GroupBox>
-            <Button Name="btnToevoegen" Grid.Column="3" Margin="5" Height="20" VerticalAlignment="Top">Add Land</Button>
+            <Button Name="btnToevoegen" Grid.Column="3" Margin="5" Height="20" VerticalAlignment="Top" Click="btnToevoegen_Click">Add Land</Button>
         </Grid>
     </Grid>
 </Window>
